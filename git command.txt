@@ -1,0 +1,6 @@
+git init 			- initial
+git status 		- show status
+git add "filename" 	- add file as a git
+git add . 			- add all file in folder as a git
+git commit "text"  	- commit
+git log			- show all commit
