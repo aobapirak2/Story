@@ -1,6 +1,12 @@
-git init 			- initial
-git status 		- show status
-git add "filename" 	- add file as a git
-git add . 			- add all file in folder as a git
-git commit "text"  	- commit
-git log			- show all commit
+git init 					- initial
+git status 				- show status
+git add "filename" 			- add file as a git
+git add . 					- take file from WD to staging area
+git commit - m "message"  	- take file from staging area to local repository
+git log					- show all commit
+git diff filename			- show different previous and recent version
+git checkout filename		- rollback
+
+git remote add origin URL	- add remote to git hub
+git push -u origin master	- push local repository to the remote
+		 (remote) (branch)
